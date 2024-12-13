@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply font-montserrat text-h1 tracking-[0.0125rem] font-extrabold;
+  }
+  h2 {
+    @apply font-montserrat text-h2 tracking-[0.0125rem] font-bold;
+  }
+  h3 {
+    @apply font-montserrat text-h3 tracking-[0.00625rem] font-semibold;
+  }
+  h4 {
+    @apply font-montserrat text-h4 tracking-[0.0125rem] font-semibold;
+  }
+  h5 {
+    @apply font-montserrat text-h5 tracking-[0.00625rem] font-medium;
+  }
+  h6 {
+    @apply font-montserrat text-h6 tracking-[0.0125rem] font-medium;
+  }
+  p {
+    @apply font-montserrat text-base tracking-[0.0125rem];
+  }
+  li {
+    @apply font-montserrat text-base tracking-[0.0125rem];
+  }
+  .btn-text {
+    @apply font-montserrat text-h6 tracking-[0.0125rem] font-semibold;
+  }
+  a {
+    @apply font-montserrat text-base tracking-[0.0125rem] font-medium;
+  }
+  .mobile-menu {
+    @apply font-montserrat text-menu tracking-[0.0125rem] font-medium;
+  }
+}
